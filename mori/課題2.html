@@ -2,16 +2,16 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>課題</title>
+    <title>課題2</title>
 </head>
 <body>
 <pre>
 <script type="text/javascript">
 	console.time("loop time");
-
-     for(var tate = 0;tate < 5; tate++){
+	for(var tate =0 ;tate < 5; tate++){
 		for(var yoko = 0;yoko < 5 ;yoko++){
-			document.write("★");
+			var hosi=tate % 2 ==1&&yoko % 2== 1 || tate % 2 == 0 && yoko % 2 == 0 ? "★" : "☆";
+				document.write(hosi);
 		}
 		document.write("<br>");
 	}
