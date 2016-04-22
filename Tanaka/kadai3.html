@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>課題3</title>
+</head>
+<body>
+<pre>
+<script type="text/javascript">
+    console.time('time');
+    for (var i = 0; i < 5; i++) {
+        for (var y = 0; y < 5; y++) {
+            var star = (i + y) % 2 == 0 ? '★' : '☆';
+            document.write(star);
+        }
+        document.writeln('');
+    }
+    console.timeEnd('time');
+</script>
+</pre>
+</body>
+</html>
