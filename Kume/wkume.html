@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>課題</title>
+</head>
+<body>
+<pre>
+<script type="text/javascript">
+console.time('timer1');
+
+
+
+int x = 5;
+int y = 5;
+
+	for(int i = 1, i ≦ x, i++){
+    	for(int j = 1, j ≦ y, j++){
+    		document.write("★");
+    	}
+    	document.write(<br>);
+	}
+
+	document.write("----------------------------"<br>);
+
+
+	for(i = 1, i ≦ x, i++){
+    	for(j = 1, j ≦ y, j++){
+        	if(j%3 == 0){
+        		document.write("★");
+        	}else{
+        		document.write("☆");
+        	}
+    	document.write(<br>);
+	}
+
+	document.write("----------------------------"<br>);
+
+
+	for(i = 1, i ≦ x, i++){
+    	for(j = 1, j ≦ y, j++){
+        	if(i == j){
+        		document.write("★");
+        	}else{
+        	document.write("☆");
+        }
+    	document.write(<br>);
+	}
+
+	document.write("----------------------------"<br>);
+
+
+	for(i = 1, i ≦ x, i++){
+    	for(j = 1, j ≦ y, j++){
+        	if(j ≦ i){
+            	if(j == i){
+                	document.write("☆");
+                	break;
+            	}else{
+                document.write("★");
+        	}else{
+        		document.write("  ");
+        	}
+    	document.write(<br>);
+	}
+
+
+	console.timeEnd('timer1'); // ここで計測時間が出力されます。
+
+
+//]]>
+</script>
+</pre>
+</body>
+</html>
