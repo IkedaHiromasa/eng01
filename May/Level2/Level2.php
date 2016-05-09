@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 問題：Level2　自動販売機
+ * 問題：Level2　金種計算
  */
 class Level2
 {
