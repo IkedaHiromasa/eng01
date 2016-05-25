@@ -5,7 +5,7 @@ $ip = array(
     '1.2.3.4',
     '100.400.0.0'
 );
-}
+
 $q = new Level3();
 
 $time_start = microtime(true);

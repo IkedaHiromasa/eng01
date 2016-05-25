@@ -5,7 +5,7 @@
  */
 class Level3
 {
-    function execute(array ips) {
+    function execute($ips) {
         # ここに回答を書いてください。
         echo '回答:';
     }

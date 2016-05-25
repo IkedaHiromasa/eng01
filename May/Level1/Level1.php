@@ -5,7 +5,7 @@
  */
 class Level1
 {
-    function execute(int num) {
+    function execute($num) {
         # ここに回答を書いてください。
         echo '回答:';
     }
