@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Level3
 {
-    public void execute() throws Exception
+    public void execute(String val) throws Exception
     {
         System.out.println("まだ答えがないよ");
     }
